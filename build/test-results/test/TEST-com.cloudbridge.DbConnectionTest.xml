@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cloudbridge.DbConnectionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-12T03:36:23.911Z" hostname="DESKTOP-5ETSH6G" time="0.007">
+  <properties/>
+  <testcase name="DB연결_테스트()" classname="com.cloudbridge.DbConnectionTest" time="0.007"/>
+  <system-out><![CDATA[2025-11-12T12:36:23.905+09:00  INFO 22096 --- [cloud_bridge] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.cloudbridge.DbConnectionTest]: DbConnectionTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-12T12:36:23.907+09:00  INFO 22096 --- [cloud_bridge] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.cloudbridge.CloudBridgeApplication for test class com.cloudbridge.DbConnectionTest
+✅ DB 연결 성공!
+연결 정보: jdbc:mysql://project-db-campus.smhrd.com:3307/campus_24IS_CLOUD3_p3_3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

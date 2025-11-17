@@ -5,34 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8ab9907-342c-49de-aaa2-afb15692ba51" name="변경" comment="20251112 백엔드 수정">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/controller/CivilPetitionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/dto/MainCivilPetitionDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/entity/MainCivilPetition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/repository/MainCivilPetitionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/service/MainCivilPetitionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/controller/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/controller/MapController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/dto/MapPositionDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/dto/OfficeDto$OfficeDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/dto/OfficeDto$OfficeDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/dto/OfficeDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/dto/OfficeDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/entity/Institution.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/entity/Institution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/repository/InstitutionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/repository/InstitutionRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/Back_End-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/Back_End-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/controller/OfficeController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MapController.class.uniqueId0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloudbridge/controller/MapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/controller/MapController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloudbridge/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloudbridge/dto/MapPositionDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloudbridge/dto/OfficeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/dto/OfficeDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloudbridge/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloudbridge/controller/OfficeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloudbridge/entity/Institution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/entity/Institution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +56,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -139,11 +131,22 @@
       <option name="presentableId" value="Default" />
       <updated>1762313321593</updated>
     </task>
+    <task id="LOCAL-00001" summary="20251112 백엔드 수정">
+      <option name="closed" value="true" />
+      <created>1762922923598</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762922923598</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="20251112 백엔드 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="20251112 백엔드 수정" />
   </component>
 </project>
