@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8ab9907-342c-49de-aaa2-afb15692ba51" name="변경" comment="20251112 백엔드 수정">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/controller/CivilPetitionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/dto/MainCivilPetitionDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/entity/MainCivilPetition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/repository/MainCivilPetitionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/service/MainCivilPetitionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/controller/MyCaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/dto/MyCaseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/entity/MyCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/repository/MyCaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/service/MyCaseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" afterDir="false" />
@@ -17,14 +17,47 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/controller/OfficeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/dto/MainCivilPetitionDto$AuthRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/dto/MainCivilPetitionDto$AuthRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/dto/MainCivilPetitionDto$Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/dto/MainCivilPetitionDto$Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/dto/MainCivilPetitionDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/dto/MainCivilPetitionDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/dto/MemberDto$Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/dto/MemberDto$Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/entity/Institution.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/entity/Institution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/entity/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/entity/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/repository/InstitutionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/repository/InstitutionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/service/MainCivilPetitionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/service/MainCivilPetitionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/cloudbridge/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.cloudbridge.CloudBridgeApplicationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.cloudbridge.CloudBridgeApplicationTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.cloudbridge.DbConnectionTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.cloudbridge.DbConnectionTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.cloudbridge.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.cloudbridge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.cloudbridge.CloudBridgeApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.cloudbridge.CloudBridgeApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.cloudbridge.DbConnectionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.cloudbridge.DbConnectionTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/CivilPetitionController.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MainCivilPetition.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MainCivilPetitionDto$AuthRequest.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MainCivilPetitionDto$Response.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MainCivilPetitionDto.class.uniqueId7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MainCivilPetitionRepository.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MainCivilPetitionService.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/OfficeController.class.uniqueId0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloudbridge/controller/OfficeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew_unix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloudbridge/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloudbridge/dto/MainCivilPetitionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/dto/MainCivilPetitionDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloudbridge/dto/MemberDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/dto/MemberDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cloudbridge/entity/Institution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/entity/Institution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloudbridge/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/entity/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloudbridge/repository/InstitutionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/repository/InstitutionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloudbridge/service/MainCivilPetitionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/service/MainCivilPetitionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloudbridge/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloudbridge/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +127,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Back&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;back&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/smhrd/Desktop/Project-last/Back&quot;,
     &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
@@ -141,6 +174,17 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>

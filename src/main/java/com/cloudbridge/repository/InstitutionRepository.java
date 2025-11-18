@@ -19,6 +19,8 @@ public interface InstitutionRepository extends JpaRepository<Institution, String
             INST_NAME,
             ADDRESS,
             ADDRESS_CODE,
+            PHONE,
+            CATEGORY,
             LATITUDE,
             LONGITUDE
         FROM INSTITUTION

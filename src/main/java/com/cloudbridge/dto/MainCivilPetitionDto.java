@@ -2,6 +2,7 @@ package com.cloudbridge.dto;
 
 import com.cloudbridge.entity.MainCivilPetition;
 import java.util.List;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -30,14 +31,14 @@ public class MainCivilPetitionDto {
         private String cpName;
         private String simple;
         private List<String> descriptions;
-        private List<String> offlineSteps;
-        private List<String> onlineSteps;
+        private List<PetitionStepDto> offlineSteps;
+        private List<PetitionStepDto> onlineSteps;
 
         public Response(
                 MainCivilPetition mainCivilPetition,
                 List<String> descriptions,
-                List<String> offlineSteps,
-                List<String> onlineSteps
+                List<PetitionStepDto> offlineSteps,
+                List<PetitionStepDto> onlineSteps
         ) {
             this.infoId = mainCivilPetition.getInfoId();
             this.cpName = mainCivilPetition.getCpName();
@@ -46,5 +47,33 @@ public class MainCivilPetitionDto {
             this.offlineSteps = offlineSteps;
             this.onlineSteps = onlineSteps;
         }
+    }
+
+    @Getter
+    @AllArgsConstructor
+    public static class PetitionStepDto {
+        private Long id;
+        private Integer order;
+        private StepMode mode;
+        private String content;
+        private String linkUrl;
+        private List<InstitutionSummary> institutions;
+    }
+
+    @Getter
+    @AllArgsConstructor
+    public static class InstitutionSummary {
+        private String id;
+        private String name;
+        private String address;
+        private String phone;
+        private String latitude;
+        private String longitude;
+    }
+
+    public enum StepMode {
+        ONLINE,
+        OFFLINE,
+        HYBRID
     }
 }

@@ -21,4 +21,7 @@ public class Member {
 
     @Column(name = "PHONE", length = 20, nullable = false, unique = true)
     private String phone;      // ✅ camelCase
+
+    @Column(name = "ROLE", length = 20)
+    private String role;
 }

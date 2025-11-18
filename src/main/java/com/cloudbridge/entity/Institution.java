@@ -35,6 +35,9 @@ public class Institution {
     @Column(name = "PHONE")
     private String phone;
 
+    @Column(name = "CATEGORY", length = 50)
+    private String category;
+
 
  ;   // 💡 [핵심 수정 2] DB의 NUMBER/DECIMAL 좌표 타입을 가장 안전한 String으로 매핑합니다.
     // 기존 대문자 테이블명 시도 시 이 필드가 문제를 일으켰을 가능성이 높습니다.

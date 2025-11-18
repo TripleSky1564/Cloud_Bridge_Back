@@ -28,6 +28,7 @@ public class MemberDto {
         private String memberId;
         private String name;
         private String phone;
+        private String role;
 
         // ✅ Member 엔티티 -> DTO 변환 생성자
         public Response(Member member) {
@@ -35,6 +36,7 @@ public class MemberDto {
             this.memberId = member.getMemberId(); // 이미 "U1" 형태로 들어있음
             this.name = member.getName();
             this.phone = member.getPhone();
+            this.role = member.getRole();
         }
     }
 }

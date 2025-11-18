@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController // 이 클래스가 REST API 컨트롤러임을 알립니다.
 @RequestMapping("/api/auth") // 이 컨트롤러의 모든 경로는 /api/auth 로 시작합니다.
-@CrossOrigin(origins = "http://localhost:5173") // ✅ React 개발 서버 허용
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:5180"}, allowCredentials = "true") // ✅ React 개발 서버 허용
 public class UserController {
 
     @Autowired

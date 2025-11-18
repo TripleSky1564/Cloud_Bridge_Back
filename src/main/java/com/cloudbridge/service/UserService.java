@@ -41,6 +41,7 @@ public class UserService {
         newMember.setMemberId(newMemberId);
         newMember.setName(request.getName());
         newMember.setPhone(request.getPhone());
+        newMember.setRole("member");
 
         // 4. 저장
         Member savedMember = memberRepository.save(newMember);
