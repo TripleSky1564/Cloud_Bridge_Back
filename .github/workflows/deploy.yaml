@@ -1,0 +1,73 @@
+# Action 파일 제목
+name: Spring Boot Gradle CI/CD
+
+# 어디에 올릴 건지
+on:
+  push:
+    branches: ["main"]
+  # 수동으로 Action 실행할 수 있게 해주는 옵션
+  workflow_dispatch:
+
+# 진행할 내용
+jobs:
+  # build, 배포에 활용되는 환경 잡아주기
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 빌드,테스트,배포 등 자동화 작업에 있어 가장 먼저 수행되어야 하는 필수 단계
+      # uses: 사용할 액션(동작) 지정
+      # actions: Github에서 공식적으로 관리하는 액션들을 모아둔 저장소 이름
+      # checkout: 코드를 워크플로우가 실행되는 가상 머신으로 복사하는 기능
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      # Gradle 실행을 위한 설치 및 권한 설정 후 빌드
+      - name: Setup Gradle
+        uses: gradle/gradle-build-action@v2
+
+      - name: Grant execute permission for Gradlew
+        run: chmod +x ./gradlew
+
+      - name: Build JAR with Gradle
+        run: ./gradlew clean bootJar -x test
+
+        # JAR 파일을 복사해서 퍼블릭 서버로 전달
+      - name: Copy JAR to Public Server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.PUBLIC_HOST }}
+          username: root
+          key: ${{ secrets.PUBLIC_SSH_KEY }}
+          source: |
+            build/libs/*SNAPSHOT.jar
+          target: /root/app/
+
+      # deploy 스크립트 파일을 퍼블릭 서버로 전달
+      - name: Copy deploy script to Public Server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.PUBLIC_HOST }}
+          username: root
+          key: ${{ secrets.PUBLIC_SSH_KEY }}
+          source: |
+            deploy_private.sh
+          target: /root/app/
+
+      # 퍼블릭 서버에 있는 deploy_private.sh 파일 실행
+      # chmod +x 실행 권한 부여
+      - name: Execute deploy_private.sh on Public Server
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.PUBLIC_HOST }}
+          username: root
+          key: ${{ secrets.PUBLIC_SSH_KEY }}
+          script: |
+            chmod +x /root/app/deploy_private.sh
+            /root/app/deploy_private.sh
