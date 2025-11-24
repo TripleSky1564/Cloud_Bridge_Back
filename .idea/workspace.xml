@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8ab9907-342c-49de-aaa2-afb15692ba51" name="변경" comment="Merge branch 'back' of https://github.com/TripleSky1564/Cloud_Bridge into back&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.14.3/fileHashes/fileHashes.lock&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy_private.sh" afterDir="false" />
-    </list>
+    <list default="true" id="e8ab9907-342c-49de-aaa2-afb15692ba51" name="변경" comment="Merge branch 'back' of https://github.com/TripleSky1564/Cloud_Bridge into back&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.14.3/fileHashes/fileHashes.lock&#10;#&#9;.idea/workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
