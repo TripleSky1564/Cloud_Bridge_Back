@@ -167,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763984015417</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge branch 'back' of https://github.com/TripleSky1564/Cloud_Bridge into back&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.14.3/fileHashes/fileHashes.lock&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1763991187244</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763991187244</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
