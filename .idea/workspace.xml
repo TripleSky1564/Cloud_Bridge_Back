@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8ab9907-342c-49de-aaa2-afb15692ba51" name="변경" comment="Merge branch 'back' of https://github.com/TripleSky1564/Cloud_Bridge into back&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.14.3/fileHashes/fileHashes.lock&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +203,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763996449609</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge branch 'back' of https://github.com/TripleSky1564/Cloud_Bridge into back&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.14.3/fileHashes/fileHashes.lock&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1764002950022</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764002950022</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge branch 'back' of https://github.com/TripleSky1564/Cloud_Bridge into back&#10;&#10;# Conflicts:&#10;#&#9;.gradle/8.14.3/fileHashes/fileHashes.lock&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1764003184272</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764003184272</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
