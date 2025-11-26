@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cloudbridge.DbConnectionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-18T06:58:44.875Z" hostname="DESKTOP-5ETSH6G" time="0.013">
+<testsuite name="com.cloudbridge.DbConnectionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-26T06:30:29.207Z" hostname="DESKTOP-5FLNKI8" time="0.016">
   <properties/>
-  <testcase name="DB연결_테스트()" classname="com.cloudbridge.DbConnectionTest" time="0.013"/>
-  <system-out><![CDATA[2025-11-18T15:58:41.177+09:00  INFO 1120502 --- [cloud_bridge] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.cloudbridge.DbConnectionTest]: DbConnectionTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-11-18T15:58:41.186+09:00  INFO 1120502 --- [cloud_bridge] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.cloudbridge.CloudBridgeApplication for test class com.cloudbridge.DbConnectionTest
+  <testcase name="DB연결_테스트()" classname="com.cloudbridge.DbConnectionTest" time="0.016"/>
+  <system-out><![CDATA[2025-11-26T15:30:29.202+09:00  INFO 13656 --- [cloud_bridge] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.cloudbridge.DbConnectionTest]: DbConnectionTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-11-26T15:30:29.207+09:00  INFO 13656 --- [cloud_bridge] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.cloudbridge.CloudBridgeApplication for test class com.cloudbridge.DbConnectionTest
 ✅ DB 연결 성공!
-연결 정보: jdbc:mysql://project-db-campus.smhrd.com:3307/campus_24IS_CLOUD3_p3_3
+연결 정보: jdbc:mysql://project-db-campus.smhrd.com:3307/campus_24IS_CLOUD3_p3_3?useSSL=false
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
